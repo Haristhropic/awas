@@ -1,0 +1,33 @@
+/* ==========================================================================
+   THE LIVING ATELIER - DESIGN TOKENS
+   Direction: name-as-monument.
+   Palette: rose grey, green. One family: TikTok Sans.
+   ========================================================================== */
+
+:root {
+  --bg: #ebe5e3;
+  --surface: #e1dad7;
+  --ink: #2b2622;
+  --muted: #6a615d;
+  --accent: #0f7d45;
+  --accent-ink: #ffffff;
+
+  --hairline: 1px solid rgba(43, 38, 34, 0.18);
+
+  --font: 'TikTok Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  --step-small: clamp(1rem, 0.95rem + 0.1vw, 1.0625rem);
+  --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+  --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+  --step-head: clamp(2rem, 1.3rem + 3.2vw, 4rem);
+  --step-monument: clamp(5rem, 10.5vw, 10.5rem);
+
+  --margin: clamp(20px, 3vw, 32px);
+  --gap-section: clamp(120px, 12vw, 200px);
+  --radius: 0px;
+
+  --ease: cubic-bezier(0.2, 0.7, 0.3, 1);
+  --dur-tick: 140ms;
+  --dur-panel: 260ms;
+  --dur-shutter: 1100ms;
+}

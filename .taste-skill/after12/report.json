@@ -1,0 +1,2655 @@
+{
+ "url": "C:\\awas\\index.html",
+ "at": "2026-10-27T16:50:05.617Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.14,
+    0.79,
+    0.4,
+    0.33,
+    0.26,
+    0.93,
+    0.86,
+    0.36,
+    0.15,
+    0.15,
+    0.86,
+    0.92
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 0,
+    "transitions": 16,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 11305,
+     "screens": 12.6,
+     "words": 256,
+     "img": 12,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 12,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "400?grayscale",
+      "600?grayscale",
+      "800?grayscale",
+      "1000?grayscale",
+      "900?grayscale",
+      "800?grayscale",
+      "1080?grayscale",
+      "1080?grayscale"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "H RIS",
+     "words": 2,
+     "chars": 5,
+     "lines": 1,
+     "size": 151.2,
+     "vw": 10.5,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.44,
+     "top": 375,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "H RIS",
+     "words": 2,
+     "lines": 1,
+     "size": 151.2,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "H RIS",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 151.2,
+      "vw": 10.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 375,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the parts of systems that stay quiet when everything moves. Traffic, cache, storage, small rules inside servers.",
+      "words": 19,
+      "chars": 120,
+      "lines": 3,
+      "size": 31.7,
+      "vw": 2.2,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 932,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Work",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 1877,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ROUTE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 244.8,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 4522,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "ISOLATE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 244.8,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5062,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "CACHE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 244.8,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5602,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "STORE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 244.8,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 6142,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Engineering archive",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 64.8,
+      "vw": 4.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 7284,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Haris. I build quiet systems that survive bad days. Infrastructure, cloud security, Linux, and careful details. build with brain and heart.",
+      "words": 21,
+      "chars": 139,
+      "lines": 3,
+      "size": 36,
+      "vw": 2.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 8655,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "hrisscloud@gmail.com",
+      "words": 1,
+      "chars": 20,
+      "lines": 2,
+      "size": 108,
+      "vw": 7.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 9284,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 6,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      17,
+      19,
+      26,
+      32,
+      36,
+      64,
+      65,
+      108,
+      151,
+      245
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 16.6,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.4
+     },
+     "measureChars": 22,
+     "max": {
+      "size": 244.8,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "text": "Route"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebe5e3",
+     "bodyBgHsl": {
+      "h": 15,
+      "s": 0.17,
+      "l": 0.91
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebe5e3",
+       "top": 0,
+       "hsl": {
+        "h": 15,
+        "s": 0.17,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#e1dad7",
+       "top": 900,
+       "hsl": {
+        "h": 18,
+        "s": 0.14,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#2b2622",
+       "top": 9044,
+       "hsl": {
+        "h": 27,
+        "s": 0.12,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2b2622",
+       "share": 0.4
+      },
+      {
+       "color": "#6a615d",
+       "share": 0.39
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#ebe5e3",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#0f7d45",
+      "hsl": {
+       "h": 149,
+       "s": 0.79,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Sample note: four artifacts are sketches",
+       "ratio": 4.4,
+       "need": 4.5,
+       "size": 16.6,
+       "fg": "#6a615d",
+       "bg": "#e1dad7"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Email Haris"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 3,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 11,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 88,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 11305,
+    "margins": {
+     "left": 32,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "section#arrival.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 18,
+      "media": 1,
+      "middle": 69,
+      "heading": {
+       "text": "RIS",
+       "size": 151,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#personal-space.section.intro",
+      "tag": "section",
+      "top": 900,
+      "height": 804,
+      "words": 41,
+      "media": 1,
+      "middle": 384,
+      "heading": {
+       "text": "I build the parts of systems that stay quiet when ",
+       "size": 32,
+       "tag": "p"
+      },
+      "left": 64,
+      "right": 94,
+      "textLeft": 64,
+      "textRight": 94,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.section.work",
+      "tag": "section",
+      "top": 1704,
+      "height": 2786,
+      "words": 53,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Work",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 135,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 4490,
+      "height": 540,
+      "words": 10,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Route",
+       "size": 245,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 64,
+      "textRight": 155,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5030,
+      "height": 540,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Isolate",
+       "size": 245,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 32,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5570,
+      "height": 540,
+      "words": 8,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Cache",
+       "size": 245,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 64,
+      "textRight": 134,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 6110,
+      "height": 540,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Store",
+       "size": 245,
+       "tag": "p"
+      },
+      "left": 32,
+      "right": 32,
+      "textLeft": 64,
+      "textRight": 165,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section.arrived",
+      "tag": "div",
+      "top": 6650,
+      "height": 461,
+      "words": 4,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Test a request.",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 132,
+      "right": 1115,
+      "textLeft": 132,
+      "textRight": 1128,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#archive.section",
+      "tag": "section",
+      "top": 7111,
+      "height": 1371,
+      "words": 30,
+      "media": 1,
+      "middle": 157,
+      "heading": {
+       "text": "Engineering archive",
+       "size": 65,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.about",
+      "tag": "section",
+      "top": 8482,
+      "height": 562,
+      "words": 33,
+      "media": 0,
+      "middle": 46,
+      "heading": {
+       "text": "Haris.",
+       "size": 36,
+       "tag": "span"
+      },
+      "left": 64,
+      "right": 78,
+      "textLeft": 64,
+      "textRight": 78,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.inverse",
+      "tag": "section",
+      "top": 9044,
+      "height": 900,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "hrisscloud@",
+       "size": 108,
+       "tag": "a"
+      },
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 9944,
+      "height": 900,
+      "words": 15,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 64,
+      "right": 64,
+      "textLeft": 370,
+      "textRight": 370,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.section",
+      "tag": "footer",
+      "top": 10844,
+      "height": 461,
+      "words": 18,
+      "media": 0,
+      "middle": 395,
+      "heading": null,
+      "left": 64,
+      "right": 64,
+      "textLeft": 64,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 56,
+      "height": 316
+     },
+     {
+      "top": 520,
+      "height": 276
+     },
+     {
+      "top": 1532,
+      "height": 348
+     },
+     {
+      "top": 6916,
+      "height": 356
+     },
+     {
+      "top": 8312,
+      "height": 340
+     },
+     {
+      "top": 8856,
+      "height": 360
+     },
+     {
+      "top": 9628,
+      "height": 348
+     },
+     {
+      "top": 10800,
+      "height": 276
+     }
+    ],
+    "h1s": [
+     {
+      "text": "H RIS",
+      "size": 151,
+      "top": 375,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 64,
+      "n": 3
+     },
+     {
+      "x": 32,
+      "n": 1
+     },
+     {
+      "x": 107,
+      "n": 1
+     },
+     {
+      "x": 176,
+      "n": 1
+     },
+     {
+      "x": 436,
+      "n": 1
+     },
+     {
+      "x": 708,
+      "n": 1
+     },
+     {
+      "x": 736,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 17,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.28,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 540,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.09,
+    0.74,
+    0.53,
+    0.43,
+    0.36,
+    0.92,
+    0.88,
+    0.37,
+    0.32,
+    0.68,
+    0.92,
+    0.94
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 0,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 12032,
+     "screens": 11.8,
+     "words": 256,
+     "img": 12,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "600?grayscale",
+      "800?grayscale",
+      "1000?grayscale",
+      "900?grayscale",
+      "800?grayscale",
+      "1080?grayscale",
+      "1080?grayscale",
+      "1080?grayscale"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "H RIS",
+     "words": 2,
+     "chars": 5,
+     "lines": 1,
+     "size": 80.6,
+     "vw": 10.5,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.44,
+     "top": 479,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "H RIS",
+     "words": 2,
+     "lines": 1,
+     "size": 80.6,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "H RIS",
+      "words": 2,
+      "chars": 5,
+      "lines": 1,
+      "size": 80.6,
+      "vw": 10.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.44,
+      "top": 479,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Work",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 1678,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ROUTE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 130.6,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 5051,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "ISOLATE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 130.6,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.96,
+      "top": 5665,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "CACHE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 130.6,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6280,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "STORE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 130.6,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 6894,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Engineering archive",
+      "words": 2,
+      "chars": 19,
+      "lines": 1,
+      "size": 40,
+      "vw": 5.2,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7957,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "hrisscloud@gmail.com",
+      "words": 1,
+      "chars": 20,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 9816,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 4,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      18,
+      22,
+      23,
+      24,
+      40,
+      45,
+      58,
+      81,
+      131
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 16,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.4
+     },
+     "measureChars": 52,
+     "max": {
+      "size": 130.6,
+      "vw": 17,
+      "font": "TikTok Sans",
+      "text": "Route"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebe5e3",
+     "bodyBgHsl": {
+      "h": 15,
+      "s": 0.17,
+      "l": 0.91
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebe5e3",
+       "top": 0,
+       "hsl": {
+        "h": 15,
+        "s": 0.17,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#e1dad7",
+       "top": 1024,
+       "hsl": {
+        "h": 18,
+        "s": 0.14,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#2b2622",
+       "top": 9625,
+       "hsl": {
+        "h": 27,
+        "s": 0.12,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2b2622",
+       "share": 0.4
+      },
+      {
+       "color": "#6a615d",
+       "share": 0.39
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#ebe5e3",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#0f7d45",
+      "hsl": {
+       "h": 149,
+       "s": 0.79,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Sample note: four artifacts are sketches",
+       "ratio": 4.4,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#6a615d",
+       "bg": "#e1dad7"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Email Haris"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 4,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 10,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 5,
+     "fixed": false,
+     "height": 69,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 12032,
+    "margins": {
+     "left": 23,
+     "right": 23
+    },
+    "sections": [
+     {
+      "sel": "section#arrival.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 18,
+      "media": 0,
+      "middle": 11,
+      "heading": {
+       "text": "RIS",
+       "size": 81,
+       "tag": "h1"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 23,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#personal-space.section.intro",
+      "tag": "section",
+      "top": 1024,
+      "height": 534,
+      "words": 41,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "I build the parts of systems that stay quiet when ",
+       "size": 22,
+       "tag": "p"
+      },
+      "left": 46,
+      "right": 46,
+      "textLeft": 46,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.section.work",
+      "tag": "section",
+      "top": 1558,
+      "height": 3470,
+      "words": 53,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Work",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 46,
+      "right": 46,
+      "textLeft": 46,
+      "textRight": 275,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5028,
+      "height": 614,
+      "words": 10,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Route",
+       "size": 131,
+       "tag": "p"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 46,
+      "textRight": 83,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5642,
+      "height": 614,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Isolate",
+       "size": 131,
+       "tag": "p"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 23,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 6257,
+      "height": 614,
+      "words": 8,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Cache",
+       "size": 131,
+       "tag": "p"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 46,
+      "textRight": 71,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 6871,
+      "height": 614,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Store",
+       "size": 131,
+       "tag": "p"
+      },
+      "left": 23,
+      "right": 23,
+      "textLeft": 46,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section.arrived",
+      "tag": "div",
+      "top": 7486,
+      "height": 352,
+      "words": 4,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Test a request.",
+       "size": 23,
+       "tag": "p"
+      },
+      "left": 46,
+      "right": 531,
+      "textLeft": 46,
+      "textRight": 557,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#archive.section",
+      "tag": "section",
+      "top": 7837,
+      "height": 1292,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Engineering archive",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 46,
+      "right": 46,
+      "textLeft": 46,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.about",
+      "tag": "section",
+      "top": 9129,
+      "height": 497,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Haris.",
+       "size": 24,
+       "tag": "span"
+      },
+      "left": 46,
+      "right": 64,
+      "textLeft": 46,
+      "textRight": 64,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.inverse",
+      "tag": "section",
+      "top": 9625,
+      "height": 1024,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "hrisscloud@",
+       "size": 58,
+       "tag": "a"
+      },
+      "left": 46,
+      "right": 46,
+      "textLeft": 46,
+      "textRight": 46,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 10649,
+      "height": 1024,
+      "words": 15,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 46,
+      "right": 46,
+      "textLeft": 48,
+      "textRight": 48,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.section",
+      "tag": "footer",
+      "top": 11673,
+      "height": 358,
+      "words": 19,
+      "media": 0,
+      "middle": 27,
+      "heading": null,
+      "left": 23,
+      "right": 53,
+      "textLeft": 23,
+      "textRight": 53,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 48,
+      "height": 428
+     },
+     {
+      "top": 556,
+      "height": 380
+     },
+     {
+      "top": 10056,
+      "height": 616
+     }
+    ],
+    "h1s": [
+     {
+      "text": "H RIS",
+      "size": 81,
+      "top": 479,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 46,
+      "n": 4
+     },
+     {
+      "x": 23,
+      "n": 1
+     },
+     {
+      "x": 69,
+      "n": 1
+     },
+     {
+      "x": 104,
+      "n": 1
+     },
+     {
+      "x": 191,
+      "n": 1
+     },
+     {
+      "x": 377,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.47,
+    0.62,
+    0.38,
+    0.44,
+    0.27,
+    0.93,
+    0.93,
+    0.32,
+    0.27,
+    0.54,
+    0.92,
+    0.95
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 0,
+    "transitions": 17,
+    "scripted": 0,
+    "videos": 1,
+    "playingVideos": 1
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 10179,
+     "screens": 12.1,
+     "words": 253,
+     "img": 12,
+     "video": 1,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 8,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 11,
+     "videoCount": 1,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "400?grayscale",
+      "800?grayscale",
+      "1000?grayscale",
+      "900?grayscale",
+      "800?grayscale",
+      "1080?grayscale",
+      "1080?grayscale",
+      "1080?grayscale"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "H RIS",
+     "words": 2,
+     "chars": 5,
+     "lines": 2,
+     "size": 80,
+     "vw": 20.5,
+     "font": "TikTok Sans",
+     "weight": 800,
+     "tracking": -0.04,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 195,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "H RIS",
+     "words": 2,
+     "lines": 2,
+     "size": 80,
+     "font": "TikTok Sans"
+    },
+    "headings": [
+     {
+      "text": "H RIS",
+      "words": 2,
+      "chars": 5,
+      "lines": 2,
+      "size": 80,
+      "vw": 20.5,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 195,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "I build the parts of systems that stay quiet when everything moves. Traffic, cache, storage, small rules inside servers.",
+      "words": 19,
+      "chars": 120,
+      "lines": 5,
+      "size": 22,
+      "vw": 5.6,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.25,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 876,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Work",
+      "words": 1,
+      "chars": 4,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.45,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 1487,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "ROUTE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 93.6,
+      "vw": 24,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 1.11,
+      "top": 4094,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "ISOLATE",
+      "words": 1,
+      "chars": 7,
+      "lines": 1,
+      "size": 93.6,
+      "vw": 24,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 1.35,
+      "top": 4600,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "CACHE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 93.6,
+      "vw": 24,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 1.15,
+      "top": 5107,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "STORE",
+      "words": 1,
+      "chars": 5,
+      "lines": 1,
+      "size": 93.6,
+      "vw": 24,
+      "font": "TikTok Sans",
+      "weight": 800,
+      "tracking": -0.04,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "right",
+      "widthRatio": 1.09,
+      "top": 5613,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Engineering archive",
+      "words": 2,
+      "chars": 19,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.98,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 6568,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Haris. I build quiet systems that survive bad days. Infrastructure, cloud security, Linux, and careful details. build with brain and heart.",
+      "words": 21,
+      "chars": 139,
+      "lines": 8,
+      "size": 24,
+      "vw": 6.2,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.69,
+      "top": 7717,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "hrisscloud@gmail.com",
+      "words": 1,
+      "chars": 20,
+      "lines": 2,
+      "size": 29.3,
+      "vw": 7.5,
+      "font": "TikTok Sans",
+      "weight": 400,
+      "tracking": -0.04,
+      "leading": 0.95,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 8315,
+      "tag": "a",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 10,
+     "maxLines": 8,
+     "over2Lines": 0,
+     "statements": 6,
+     "centered": 4,
+     "medianWords": 1,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "TikTok Sans",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      16,
+      17,
+      20,
+      22,
+      24,
+      29,
+      33,
+      40,
+      80,
+      94
+     ],
+     "sizeCount": 10,
+     "notLoaded": [],
+     "body": {
+      "font": "TikTok Sans",
+      "size": 16,
+      "leading": 1.45,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.4
+     },
+     "measureChars": 23,
+     "max": {
+      "size": 93.6,
+      "vw": 24,
+      "font": "TikTok Sans",
+      "text": "Route"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.01,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ebe5e3",
+     "bodyBgHsl": {
+      "h": 15,
+      "s": 0.17,
+      "l": 0.91
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#ebe5e3",
+       "top": 0,
+       "hsl": {
+        "h": 15,
+        "s": 0.17,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#e1dad7",
+       "top": 844,
+       "hsl": {
+        "h": 18,
+        "s": 0.14,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#2b2622",
+       "top": 8094,
+       "hsl": {
+        "h": 27,
+        "s": 0.12,
+        "l": 0.15
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#2b2622",
+       "share": 0.4
+      },
+      {
+       "color": "#6a615d",
+       "share": 0.39
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.15
+      },
+      {
+       "color": "#ebe5e3",
+       "share": 0.06
+      }
+     ],
+     "button": {
+      "bg": "#0f7d45",
+      "hsl": {
+       "h": 149,
+       "s": 0.79,
+       "l": 0.27
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Sample note: four artifacts are sketches",
+       "ratio": 4.4,
+       "need": 4.5,
+       "size": 16,
+       "fg": "#6a615d",
+       "bg": "#e1dad7"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 3,
+     "inHero": 2,
+     "radius": 0,
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Skip to content",
+      "Email Haris"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 4,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 10,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": false,
+       "top": 844
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.25
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 63,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "tiktok sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 10179,
+    "margins": {
+     "left": 20,
+     "right": 20
+    },
+    "sections": [
+     {
+      "sel": "section#arrival.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 15,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "RIS",
+       "size": 80,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#personal-space.section.intro",
+      "tag": "section",
+      "top": 844,
+      "height": 523,
+      "words": 41,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I build the parts of systems that stay quiet when ",
+       "size": 22,
+       "tag": "p"
+      },
+      "left": 40,
+      "right": 74,
+      "textLeft": 40,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#work.section.work",
+      "tag": "section",
+      "top": 1367,
+      "height": 2707,
+      "words": 53,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Work",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 52,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 4074,
+      "height": 506,
+      "words": 10,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Route",
+       "size": 94,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 4580,
+      "height": 506,
+      "words": 11,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Isolate",
+       "size": 94,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5087,
+      "height": 506,
+      "words": 8,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Cache",
+       "size": 94,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.panel",
+      "tag": "div",
+      "top": 5593,
+      "height": 506,
+      "words": 7,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Store",
+       "size": 94,
+       "tag": "p"
+      },
+      "left": 20,
+      "right": 20,
+      "textLeft": 20,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section.arrived",
+      "tag": "div",
+      "top": 6099,
+      "height": 348,
+      "words": 4,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 159,
+      "textLeft": 40,
+      "textRight": 185,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#archive.section",
+      "tag": "section",
+      "top": 6448,
+      "height": 1150,
+      "words": 30,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Engineering archive",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#about.section.about",
+      "tag": "section",
+      "top": 7597,
+      "height": 497,
+      "words": 33,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Haris.",
+       "size": 24,
+       "tag": "span"
+      },
+      "left": 40,
+      "right": 56,
+      "textLeft": 40,
+      "textRight": 56,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.inverse",
+      "tag": "section",
+      "top": 8094,
+      "height": 844,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "hrisscloud@",
+       "size": 29,
+       "tag": "a"
+      },
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section",
+      "tag": "section",
+      "top": 8938,
+      "height": 844,
+      "words": 15,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 40,
+      "right": 40,
+      "textLeft": 40,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.section",
+      "tag": "footer",
+      "top": 9782,
+      "height": 397,
+      "words": 19,
+      "media": 0,
+      "middle": 7,
+      "heading": null,
+      "left": 20,
+      "right": 40,
+      "textLeft": 20,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 6304,
+      "height": 256
+     },
+     {
+      "top": 8500,
+      "height": 456
+     },
+     {
+      "top": 9624,
+      "height": 276
+     }
+    ],
+    "h1s": [
+     {
+      "text": "H RIS",
+      "size": 80,
+      "top": 195,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 40,
+      "n": 5
+     },
+     {
+      "x": 20,
+      "n": 1
+     },
+     {
+      "x": 68,
+      "n": 1
+     },
+     {
+      "x": 80,
+      "n": 1
+     },
+     {
+      "x": 109,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Sample note: four artifacts are sketches\" 4.4:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "10 different font sizes (17, 19, 26, 32, 36, 64, 65, 108, 151, 245).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (4.4:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "28% of the first screen is one empty block (540×660px at 0,120).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 7 different lines (64px, 32px, 107px, 176px, 436px, 708px, 736px); the three most used hold only 56% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "FAIL",
+   "id": "empty-screens",
+   "width": 1440,
+   "message": "3 of 12 desktop screens are almost empty ground (under 20% of the screen holds text, a picture or a colour field): screens 1, 9, 10.",
+   "fix": "An empty screen is a rest only once per page. Elsewhere it means the section is underbuilt: set its content larger, give it the full information, put it on a colour field, or cut it."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 768,
+   "message": "1 stretch(es) of the page hold nothing at all: 616px at 10056px (the screen is 1024px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  },
+  {
+   "level": "WARN",
+   "id": "statement-length",
+   "width": 390,
+   "message": "2 large-set statement(s) run past 4 lines at 390px: \"I build the parts of systems that stay q…\" → 5 lines at 22px; \"Haris. I build quiet systems that surviv…\" → 8 lines at 24px",
+   "fix": "A statement set large is about 30 words. Cut it, or set the rest as ordinary body text."
+  },
+  {
+   "level": "WARN",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "A 456px stretch at 8500px holds nothing.",
+   "fix": "Check that it is a deliberate rest (once per page at most); otherwise close it to the normal section gap."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\awas\\.taste-skill\\after12\\desktop-fold.jpg",
+   "pages": [
+    "C:\\awas\\.taste-skill\\after12\\desktop-page-01.jpg",
+    "C:\\awas\\.taste-skill\\after12\\desktop-page-02.jpg",
+    "C:\\awas\\.taste-skill\\after12\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\awas\\.taste-skill\\after12\\tablet-fold.jpg",
+   "pages": [
+    "C:\\awas\\.taste-skill\\after12\\tablet-page-01.jpg",
+    "C:\\awas\\.taste-skill\\after12\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\awas\\.taste-skill\\after12\\mobile-fold.jpg",
+   "pages": [
+    "C:\\awas\\.taste-skill\\after12\\mobile-page-01.jpg",
+    "C:\\awas\\.taste-skill\\after12\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

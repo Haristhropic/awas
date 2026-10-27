@@ -1,0 +1,438 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "The Living Atelier" [ref=e6] [cursor=pointer]:
+          - /url: "#arrival"
+        - navigation "Main Navigation" [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Arrival" [ref=e10] [cursor=pointer]:
+                - /url: "#arrival"
+            - listitem [ref=e11]:
+              - link "Exhibits" [ref=e12] [cursor=pointer]:
+                - /url: "#exhibits"
+            - listitem [ref=e13]:
+              - link "System" [ref=e14] [cursor=pointer]:
+                - /url: "#system"
+            - listitem [ref=e15]:
+              - link "Archive" [ref=e16] [cursor=pointer]:
+                - /url: "#archive"
+    - main [ref=e17]:
+      - region "Arrival" [ref=e18]:
+        - generic [ref=e19]:
+          - paragraph [ref=e20]: Central Station · Personal Departures
+          - heading "Haris — Cloud Engineer" [level=1] [ref=e21]:
+            - generic [ref=e23]:
+              - generic [ref=e24]: H
+              - generic [ref=e25]: A
+              - generic [ref=e26]: R
+              - generic [ref=e27]: I
+              - generic [ref=e28]: S
+            - generic [ref=e29]:
+              - generic [ref=e30]: C
+              - generic [ref=e31]: L
+              - generic [ref=e32]: O
+              - generic [ref=e33]: U
+              - generic [ref=e34]: D
+              - generic [ref=e36]: E
+              - generic [ref=e37]: "N"
+              - generic [ref=e38]: G
+              - generic [ref=e39]: I
+              - generic [ref=e40]: "N"
+              - generic [ref=e41]: E
+              - generic [ref=e42]: E
+              - generic [ref=e43]: R
+          - paragraph [ref=e44]: Building systems that handle complexity with quiet precision.
+          - list "Disciplines" [ref=e45]:
+            - listitem [ref=e46]: infrastructure
+            - listitem [ref=e47]: cloud security
+            - listitem [ref=e48]: linux
+          - link "Scroll for departures" [ref=e49] [cursor=pointer]:
+            - /url: "#personal-space"
+            - text: Scroll for departures
+            - generic [ref=e50]: ↓
+          - link "Call Haris" [ref=e51] [cursor=pointer]:
+            - /url: mailto:hrisscloud@gmail.com
+      - region "Personal Space" [ref=e53]:
+        - generic [ref=e55]:
+          - figure "Fig. 01 - Architecture of curiosity" [ref=e56]:
+            - img "Editorial photography placeholder" [ref=e57]
+          - blockquote [ref=e59]:
+            - paragraph [ref=e60]: The atelier — Design is not decoration - it is the architecture of attention. Every pixel decides where the eye travels next. Structure first, personality second, craft last.
+            - generic [ref=e61]: "- Principles of digital curation"
+      - region "Selected Work" [ref=e62]:
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "Selected Artifacts" [level=2] [ref=e65]
+            - paragraph [ref=e66]: Exhibit Collection
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - button "001 Traffic Distribution Load Balancer Boarding" [ref=e69] [cursor=pointer]:
+                - generic [ref=e70]:
+                  - generic [ref=e71]: "001"
+                  - generic [ref=e72]: Traffic Distribution
+                - generic "Load Balancer" [ref=e73]:
+                  - generic [ref=e74]: L
+                  - generic [ref=e75]: o
+                  - generic [ref=e76]: a
+                  - generic [ref=e77]: d
+                  - generic [ref=e79]: B
+                  - generic [ref=e80]: a
+                  - generic [ref=e81]: l
+                  - generic [ref=e82]: a
+                  - generic [ref=e83]: "n"
+                  - generic [ref=e84]: c
+                  - generic [ref=e85]: e
+                  - generic [ref=e86]: r
+                - generic [ref=e87]: Boarding
+                - generic [ref=e88]: +
+              - generic [ref=e89]:
+                - generic [ref=e90]:
+                  - paragraph [ref=e91]: High-resilience reverse proxy and traffic distribution layer built for low-latency fault tolerance under spiky load patterns.
+                  - paragraph [ref=e92]: Illustrative specification
+                  - generic [ref=e93]:
+                    - generic [ref=e94]:
+                      - term [ref=e95]: architecture
+                      - definition [ref=e96]: Multi-region active-passive topology
+                    - generic [ref=e97]:
+                      - term [ref=e98]: health-checks
+                      - definition [ref=e99]: Sub-second heartbeat verification
+                    - generic [ref=e100]:
+                      - term [ref=e101]: failover
+                      - definition [ref=e102]: <50ms automatic rerouting
+                  - list [ref=e103]:
+                    - listitem [ref=e104]: Linux
+                    - listitem [ref=e105]: Nginx
+                    - listitem [ref=e106]: Docker
+                - img [ref=e108]:
+                  - generic [ref=e112]: Balancer
+            - listitem [ref=e116]:
+              - button "002 Caching Layer Redis Infrastructure Live" [ref=e117] [cursor=pointer]:
+                - generic [ref=e118]:
+                  - generic [ref=e119]: "002"
+                  - generic [ref=e120]: Caching Layer
+                - generic "Redis Infrastructure" [ref=e121]:
+                  - generic [ref=e122]: R
+                  - generic [ref=e123]: e
+                  - generic [ref=e124]: d
+                  - generic [ref=e125]: i
+                  - generic [ref=e126]: s
+                  - generic [ref=e128]: I
+                  - generic [ref=e129]: "n"
+                  - generic [ref=e130]: f
+                  - generic [ref=e131]: r
+                  - generic [ref=e132]: a
+                  - generic [ref=e133]: s
+                  - generic [ref=e134]: t
+                  - generic [ref=e135]: r
+                  - generic [ref=e136]: u
+                  - generic [ref=e137]: c
+                  - generic [ref=e138]: t
+                  - generic [ref=e139]: u
+                  - generic [ref=e140]: r
+                  - generic [ref=e141]: e
+                - generic [ref=e142]: Live
+                - generic [ref=e143]: +
+              - generic [ref=e144]:
+                - generic [ref=e145]:
+                  - paragraph [ref=e146]: Clustered caching topology designed to minimize database roundtrips and maintain microsecond retrieval times at scale.
+                  - paragraph [ref=e147]: Illustrative specification
+                  - generic [ref=e148]:
+                    - generic [ref=e149]:
+                      - term [ref=e150]: persistence
+                      - definition [ref=e151]: AOF + RDB hybrid snapshots
+                    - generic [ref=e152]:
+                      - term [ref=e153]: clustering
+                      - definition [ref=e154]: 12-node hash partitioning
+                    - generic [ref=e155]:
+                      - term [ref=e156]: replication
+                      - definition [ref=e157]: Multi-level read replicas
+                  - list [ref=e158]:
+                    - listitem [ref=e159]: Redis
+                    - listitem [ref=e160]: Docker
+                    - listitem [ref=e161]: Node.js
+                - img [ref=e163]:
+                  - generic [ref=e165]: Master
+            - listitem [ref=e171]:
+              - button "003 Deployment Scaffold Containerized Application Boarding" [ref=e172] [cursor=pointer]:
+                - generic [ref=e173]:
+                  - generic [ref=e174]: "003"
+                  - generic [ref=e175]: Deployment Scaffold
+                - generic "Containerized Application" [ref=e176]:
+                  - generic [ref=e177]: C
+                  - generic [ref=e178]: o
+                  - generic [ref=e179]: "n"
+                  - generic [ref=e180]: t
+                  - generic [ref=e181]: a
+                  - generic [ref=e182]: i
+                  - generic [ref=e183]: "n"
+                  - generic [ref=e184]: e
+                  - generic [ref=e185]: r
+                  - generic [ref=e186]: i
+                  - generic [ref=e187]: z
+                  - generic [ref=e188]: e
+                  - generic [ref=e189]: d
+                  - generic [ref=e191]: A
+                  - generic [ref=e192]: p
+                  - generic [ref=e193]: p
+                  - generic [ref=e194]: l
+                  - generic [ref=e195]: i
+                  - generic [ref=e196]: c
+                  - generic [ref=e197]: a
+                  - generic [ref=e198]: t
+                  - generic [ref=e199]: i
+                  - generic [ref=e200]: o
+                  - generic [ref=e201]: "n"
+                - generic [ref=e202]: Boarding
+                - generic [ref=e203]: +
+              - generic [ref=e204]:
+                - generic [ref=e205]:
+                  - paragraph [ref=e206]: Multi-service deployment scaffold with isolated networking, automated health checks, and hardened security profiles.
+                  - paragraph [ref=e207]: Illustrative specification
+                  - generic [ref=e208]:
+                    - generic [ref=e209]:
+                      - term [ref=e210]: naming
+                      - definition [ref=e211]: Service mesh DNS resolution
+                    - generic [ref=e212]:
+                      - term [ref=e213]: network
+                      - definition [ref=e214]: Calico network policies
+                    - generic [ref=e215]:
+                      - term [ref=e216]: security
+                      - definition [ref=e217]: Non-root user containers
+                  - list [ref=e218]:
+                    - listitem [ref=e219]: Docker
+                    - listitem [ref=e220]: Compose
+                    - listitem [ref=e221]: Kubernetes
+                - img [ref=e223]:
+                  - generic [ref=e225]: Compose
+                  - generic [ref=e231]: App A
+                  - generic [ref=e232]: App B
+                  - generic [ref=e233]: Shared Net
+            - listitem [ref=e234]:
+              - button "004 Observability Engine Uptime Monitoring Scheduled" [ref=e235] [cursor=pointer]:
+                - generic [ref=e236]:
+                  - generic [ref=e237]: "004"
+                  - generic [ref=e238]: Observability Engine
+                - generic "Uptime Monitoring" [ref=e239]:
+                  - generic [ref=e240]: U
+                  - generic [ref=e241]: p
+                  - generic [ref=e242]: t
+                  - generic [ref=e243]: i
+                  - generic [ref=e244]: m
+                  - generic [ref=e245]: e
+                  - generic [ref=e247]: M
+                  - generic [ref=e248]: o
+                  - generic [ref=e249]: "n"
+                  - generic [ref=e250]: i
+                  - generic [ref=e251]: t
+                  - generic [ref=e252]: o
+                  - generic [ref=e253]: r
+                  - generic [ref=e254]: i
+                  - generic [ref=e255]: "n"
+                  - generic [ref=e256]: g
+                - generic [ref=e257]: Scheduled
+                - generic [ref=e258]: +
+              - generic [ref=e260]:
+                - paragraph [ref=e261]: Distributed heartbeat verification engine alerting on latency degradation and multi-region packet loss.
+                - paragraph [ref=e262]: Illustrative specification
+                - generic [ref=e263]:
+                  - generic [ref=e264]:
+                    - term [ref=e265]: sampling
+                    - definition [ref=e266]: 1-second interval probes
+                  - generic [ref=e267]:
+                    - term [ref=e268]: alerting
+                    - definition [ref=e269]: Multi-channel escalation
+                  - generic [ref=e270]:
+                    - term [ref=e271]: visualization
+                    - definition [ref=e272]: Custom dashboards
+                - list [ref=e273]:
+                  - listitem [ref=e274]: Prometheus
+                  - listitem [ref=e275]: Grafana
+                  - listitem [ref=e276]: Alertmanager
+      - region "The Living System" [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - heading "The Living System" [level=2] [ref=e289]
+            - paragraph [ref=e290]: System Topology
+          - paragraph [ref=e291]: request ↓
+          - list [ref=e292]:
+            - listitem [ref=e293]:
+              - generic [ref=e295]:
+                - generic [ref=e296]: "01"
+                - heading "Ingress Controller" [level=3] [ref=e297]
+              - paragraph [ref=e298]: Traffic boundary enforcement
+            - listitem [ref=e299]:
+              - generic [ref=e301]:
+                - generic [ref=e302]: "02"
+                - heading "Runtime Environment" [level=3] [ref=e303]
+              - paragraph [ref=e304]: Process isolation sandbox
+            - listitem [ref=e305]:
+              - generic [ref=e307]:
+                - generic [ref=e308]: "03"
+                - heading "Caching Layer" [level=3] [ref=e309]
+              - paragraph [ref=e310]: Memory-first retrieval
+            - listitem [ref=e311]:
+              - generic [ref=e313]:
+                - generic [ref=e314]: "04"
+                - heading "Persistent Storage" [level=3] [ref=e315]
+              - paragraph [ref=e316]: Durability guarantees
+          - generic [ref=e317]:
+            - generic [ref=e318]: layers
+            - generic [ref=e319]: "04"
+            - generic [ref=e320]: boundary to persistence
+      - region "Engineering Archive" [ref=e321]:
+        - generic [ref=e322]:
+          - generic [ref=e323]:
+            - heading "Engineering Archive" [level=2] [ref=e324]
+            - paragraph [ref=e325]: Chronological Log
+          - paragraph [ref=e326]: Demo timetable — sample log entries
+          - table [ref=e328]:
+            - caption [ref=e329]: Engineering archive timetable
+            - rowgroup [ref=e330]:
+              - row [ref=e331]:
+                - cell [ref=e332]:
+                  - text: Date
+                  - time [ref=e333]: Aug 2026
+                - cell [ref=e334]:
+                  - text: Project
+                  - generic "Kubernetes Migration" [ref=e335]:
+                    - generic [ref=e336]: K
+                    - generic [ref=e337]: u
+                    - generic [ref=e338]: b
+                    - generic [ref=e339]: e
+                    - generic [ref=e340]: r
+                    - generic [ref=e341]: "n"
+                    - generic [ref=e342]: e
+                    - generic [ref=e343]: t
+                    - generic [ref=e344]: e
+                    - generic [ref=e345]: s
+                    - generic [ref=e347]: M
+                    - generic [ref=e348]: i
+                    - generic [ref=e349]: g
+                    - generic [ref=e350]: r
+                    - generic [ref=e351]: a
+                    - generic [ref=e352]: t
+                    - generic [ref=e353]: i
+                    - generic [ref=e354]: o
+                    - generic [ref=e355]: "n"
+                - cell "Category Orchestration" [ref=e356]
+                - cell "Status Complete" [ref=e357]:
+                  - text: Status
+                  - generic [ref=e358]: Complete
+              - row [ref=e359]:
+                - cell [ref=e360]:
+                  - text: Date
+                  - time [ref=e361]: Jul 2026
+                - cell [ref=e362]:
+                  - text: Project
+                  - generic "Redis Sentinel Setup" [ref=e363]:
+                    - generic [ref=e364]: R
+                    - generic [ref=e365]: e
+                    - generic [ref=e366]: d
+                    - generic [ref=e367]: i
+                    - generic [ref=e368]: s
+                    - generic [ref=e370]: S
+                    - generic [ref=e371]: e
+                    - generic [ref=e372]: "n"
+                    - generic [ref=e373]: t
+                    - generic [ref=e374]: i
+                    - generic [ref=e375]: "n"
+                    - generic [ref=e376]: e
+                    - generic [ref=e377]: l
+                    - generic [ref=e379]: S
+                    - generic [ref=e380]: e
+                    - generic [ref=e381]: t
+                    - generic [ref=e382]: u
+                    - generic [ref=e383]: p
+                - cell "Category High Availability" [ref=e384]
+                - cell "Status In Progress" [ref=e385]:
+                  - text: Status
+                  - generic [ref=e386]: In Progress
+              - row [ref=e387]:
+                - cell [ref=e388]:
+                  - text: Date
+                  - time [ref=e389]: Jun 2026
+                - cell [ref=e390]:
+                  - text: Project
+                  - generic "Nginx TLS Hardening" [ref=e391]:
+                    - generic [ref=e392]: "N"
+                    - generic [ref=e393]: g
+                    - generic [ref=e394]: i
+                    - generic [ref=e395]: "n"
+                    - generic [ref=e396]: x
+                    - generic [ref=e398]: T
+                    - generic [ref=e399]: L
+                    - generic [ref=e400]: S
+                    - generic [ref=e402]: H
+                    - generic [ref=e403]: a
+                    - generic [ref=e404]: r
+                    - generic [ref=e405]: d
+                    - generic [ref=e406]: e
+                    - generic [ref=e407]: "n"
+                    - generic [ref=e408]: i
+                    - generic [ref=e409]: "n"
+                    - generic [ref=e410]: g
+                - cell "Category Security" [ref=e411]
+                - cell "Status Complete" [ref=e412]:
+                  - text: Status
+                  - generic [ref=e413]: Complete
+              - row [ref=e414]:
+                - cell [ref=e415]:
+                  - text: Date
+                  - time [ref=e416]: May 2026
+                - cell [ref=e417]:
+                  - text: Project
+                  - generic "Prometheus Alerting" [ref=e418]:
+                    - generic [ref=e419]: P
+                    - generic [ref=e420]: r
+                    - generic [ref=e421]: o
+                    - generic [ref=e422]: m
+                    - generic [ref=e423]: e
+                    - generic [ref=e424]: t
+                    - generic [ref=e425]: h
+                    - generic [ref=e426]: e
+                    - generic [ref=e427]: u
+                    - generic [ref=e428]: s
+                    - generic [ref=e430]: A
+                    - generic [ref=e431]: l
+                    - generic [ref=e432]: e
+                    - generic [ref=e433]: r
+                    - generic [ref=e434]: t
+                    - generic [ref=e435]: i
+                    - generic [ref=e436]: "n"
+                    - generic [ref=e437]: g
+                - cell "Category Observability" [ref=e438]
+                - cell "Status Complete" [ref=e439]:
+                  - text: Status
+                  - generic [ref=e440]: Complete
+      - region "About" [ref=e441]:
+        - generic [ref=e442]:
+          - heading [level=2] [ref=e443]:
+            - text: Build with
+            - emphasis [ref=e444]: brain and heart
+          - generic [ref=e445]:
+            - generic [ref=e446]:
+              - heading "The brain" [level=3] [ref=e447]
+              - paragraph [ref=e448]: Systems, infrastructure, engineering discipline. Understanding how things work at every level - from kernel to cloud.
+            - generic [ref=e449]:
+              - heading "The heart" [level=3] [ref=e450]
+              - paragraph [ref=e451]: Design, photography, craft, curiosity. Building things that feel intentional, personal, memorable.
+      - region "Contact" [ref=e452]:
+        - generic [ref=e453]:
+          - paragraph [ref=e454]: Let's make something worth keeping.
+          - paragraph [ref=e455]: Tickets & Information
+          - generic [ref=e456]:
+            - link "Email — hrisscloud@gmail.com" [ref=e457] [cursor=pointer]:
+              - /url: mailto:hrisscloud@gmail.com
+            - link "GitHub" [ref=e458] [cursor=pointer]:
+              - /url: https://github.com/Haristhropic
+            - link "LinkedIn" [ref=e459] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/rahmad-haris-abdillah-958142384/
+    - contentinfo [ref=e460]:
+      - generic [ref=e461]:
+        - generic [ref=e462]: The Living Atelier · © 2026 Haris
+        - link "Return to concourse ↑" [ref=e463] [cursor=pointer]:
+          - /url: "#arrival"

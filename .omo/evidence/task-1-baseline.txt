@@ -1,0 +1,6 @@
+tokens.css:31: Display: Anton (destination-board condensed caps)
+tokens.css:34: --font-display: 'Anton', 'Archivo', Impact, 'Arial Narrow', sans-serif;
+index.html:12: <!-- Typography — Split-Flap Departures type system -->
+index.html:13: <link rel="preconnect" href="https://fonts.googleapis.com">
+index.html:15: <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;700&family=Martian+Mono:wght@400;600&display=swap" rel="stylesheet">
+index.html:20: <link rel="stylesheet" href="css/typography.css">

@@ -1,0 +1,147 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-23T00:00:00Z",
+  "title": "Design System: The Living Atelier",
+  "extensions": {
+    "colorMeta": {
+      "housing":     { "role": "neutral",   "displayName": "Housing",      "canonical": "#141210", "tonalRamp": ["oklch(15% 0.008 70)", "oklch(23% 0.010 70)", "oklch(31% 0.012 70)", "oklch(40% 0.014 70)", "oklch(50% 0.015 70)", "oklch(62% 0.014 75)", "oklch(78% 0.012 80)", "oklch(93% 0.010 85)"] },
+      "panel":       { "role": "neutral",   "displayName": "Panel",        "canonical": "#201C18", "tonalRamp": ["oklch(17% 0.010 65)", "oklch(25% 0.012 68)", "oklch(33% 0.014 70)", "oklch(42% 0.015 72)", "oklch(52% 0.016 75)", "oklch(64% 0.015 78)", "oklch(79% 0.013 82)", "oklch(94% 0.011 86)"] },
+      "panel-deep":  { "role": "neutral",   "displayName": "Deep Panel",   "canonical": "#0F0D0B", "tonalRamp": ["oklch(12% 0.006 65)", "oklch(20% 0.008 68)", "oklch(28% 0.010 70)", "oklch(38% 0.012 72)", "oklch(48% 0.013 74)", "oklch(60% 0.013 78)", "oklch(76% 0.011 82)", "oklch(92% 0.009 85)"] },
+      "flap-face":   { "role": "neutral",   "displayName": "Flap Face",    "canonical": "#EDE6D6", "tonalRamp": ["oklch(22% 0.012 85)", "oklch(32% 0.014 85)", "oklch(44% 0.016 84)", "oklch(56% 0.018 84)", "oklch(67% 0.020 84)", "oklch(77% 0.021 84)", "oklch(86% 0.019 85)", "oklch(94% 0.016 86)"] },
+      "flap-slit":   { "role": "neutral",   "displayName": "Flap Slit",    "canonical": "#B8AE9A", "tonalRamp": ["oklch(25% 0.015 88)", "oklch(35% 0.018 87)", "oklch(46% 0.020 86)", "oklch(56% 0.022 86)", "oklch(66% 0.024 85)", "oklch(75% 0.024 85)", "oklch(84% 0.022 86)", "oklch(93% 0.018 87)"] },
+      "amber":       { "role": "primary",   "displayName": "Solari Amber", "canonical": "#E8A33D", "tonalRamp": ["oklch(28% 0.075 75)", "oklch(38% 0.095 73)", "oklch(48% 0.112 72)", "oklch(57% 0.126 71)", "oklch(66% 0.136 71)", "oklch(74% 0.138 72)", "oklch(83% 0.128 76)", "oklch(93% 0.095 82)"] },
+      "alert-red":   { "role": "secondary", "displayName": "Signal Red",   "canonical": "#C8442E", "tonalRamp": ["oklch(22% 0.070 30)", "oklch(31% 0.095 29)", "oklch(40% 0.118 28)", "oklch(49% 0.140 27)", "oklch(57% 0.152 26)", "oklch(66% 0.150 27)", "oklch(77% 0.125 31)", "oklch(90% 0.070 38)"] },
+      "ink-on-flap": { "role": "neutral",   "displayName": "Ink on Flap",  "canonical": "#1A1712", "tonalRamp": ["oklch(14% 0.009 70)", "oklch(22% 0.011 70)", "oklch(30% 0.013 71)", "oklch(39% 0.014 72)", "oklch(49% 0.015 74)", "oklch(61% 0.014 77)", "oklch(77% 0.012 81)", "oklch(92% 0.010 85)"] },
+      "ink-bright":  { "role": "neutral",   "displayName": "Ink Bright",   "canonical": "#EDE6D6", "tonalRamp": ["oklch(22% 0.012 85)", "oklch(32% 0.014 85)", "oklch(44% 0.016 84)", "oklch(56% 0.018 84)", "oklch(67% 0.020 84)", "oklch(77% 0.021 84)", "oklch(86% 0.019 85)", "oklch(94% 0.016 86)"] },
+      "ink-body":    { "role": "neutral",   "displayName": "Ink Body",     "canonical": "#CBC3B4", "tonalRamp": ["oklch(24% 0.013 86)", "oklch(34% 0.015 85)", "oklch(45% 0.017 85)", "oklch(56% 0.018 85)", "oklch(66% 0.019 85)", "oklch(75% 0.019 85)", "oklch(85% 0.017 86)", "oklch(94% 0.014 87)"] },
+      "ink-muted":   { "role": "neutral",   "displayName": "Ink Muted",    "canonical": "#A29A8C", "tonalRamp": ["oklch(25% 0.012 85)", "oklch(35% 0.013 84)", "oklch(45% 0.014 84)", "oklch(54% 0.015 84)", "oklch(63% 0.015 84)", "oklch(72% 0.015 84)", "oklch(83% 0.014 85)", "oklch(93% 0.012 86)"] },
+      "ink-faint":   { "role": "neutral",   "displayName": "Ink Faint",    "canonical": "#6E6659", "tonalRamp": ["oklch(22% 0.012 80)", "oklch(30% 0.013 79)", "oklch(39% 0.014 79)", "oklch(47% 0.014 78)", "oklch(56% 0.014 78)", "oklch(66% 0.014 79)", "oklch(79% 0.013 80)", "oklch(91% 0.011 82)"] }
+    },
+    "typographyMeta": {
+      "display-board": { "displayName": "Board Giant", "purpose": "Hero destination letters only (H-A-R-I-S), set inside flap cells." },
+      "display":       { "displayName": "Display",     "purpose": "Chapter h2 announcements; em flips to amber." },
+      "title":         { "displayName": "Title",       "purpose": "Station and panel titles (h3 level)." },
+      "body":          { "displayName": "Body",        "purpose": "Reading copy on housing; max-width 62ch." },
+      "label":         { "displayName": "Meta/Mono",   "purpose": "All chrome text: uppercase Martian Mono, wide tracking." }
+    },
+    "shadows": [
+      { "name": "flap-curl-top",    "value": "inset 0 7px 9px -7px rgba(26, 23, 18, 0.60)",  "purpose": "Upper edge curvature of every flap cell; the only shadow family in the system (inset-only)." },
+      { "name": "flap-curl-bottom", "value": "inset 0 -7px 9px -7px rgba(26, 23, 18, 0.60)", "purpose": "Lower edge curvature of every flap cell; applied together with the top curl via one overlay." }
+    ],
+    "motion": [
+      { "name": "ease-flap",    "value": "cubic-bezier(0.2, 0.7, 0.3, 1)", "purpose": "The single easing of the world: flaps, trays, lifts, arrivals." },
+      { "name": "dur-tick",     "value": "140ms", "purpose": "Hover ticks: color, border, small transforms." },
+      { "name": "dur-panel",    "value": "260ms", "purpose": "Tray pull-downs and below-fold row letter resolution." },
+      { "name": "dur-flap",     "value": "480ms", "purpose": "Hero split-flap letter drops." },
+      { "name": "flip-stagger", "value": "64ms",  "purpose": "Hero cell-to-cell delay (--i * flip-stagger); row chars 22ms (--j), fades 90ms, route dots 160ms." },
+      { "name": "lamp-pulse",   "value": "opacity 1 -> 0.25 -> 1 over 2.6s (live lamps 1.8s)", "purpose": "Status lamps only." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "900px" },
+      { "name": "sm", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Flap Cell",
+      "kind": "custom",
+      "refersTo": "flap-cell",
+      "description": "Signature ivory split-flap tile with visible slit line and inset curl; hero board lettering only.",
+      "html": "<span class=\"ds-flap-cell\">H</span>",
+      "css": ".ds-flap-cell { position: relative; display: inline-flex; align-items: center; justify-content: center; background: var(--flap-face, #EDE6D6); color: var(--ink-on-flap, #1A1712); border-radius: var(--radius-flap, 2px); font-family: var(--font-display, Anton, Impact, sans-serif); text-transform: uppercase; line-height: 1; font-size: clamp(3.4rem, 11vw + 1rem, 9.5rem); padding: 0.05em 0.17em 0.005em; min-width: 0.76em; } .ds-flap-cell::before { content: ''; position: absolute; inset: 0; border-radius: inherit; box-shadow: inset 0 7px 9px -7px rgba(26,23,18,.6), inset 0 -7px 9px -7px rgba(26,23,18,.6); pointer-events: none; } .ds-flap-cell::after { content: ''; position: absolute; left: 0; right: 0; top: 50%; height: 1px; background: var(--flap-slit, #B8AE9A); pointer-events: none; }"
+    },
+    {
+      "name": "Primary Plate",
+      "kind": "button",
+      "refersTo": "plate-primary",
+      "description": "The one primary action per context: solid Solari amber plate with lamp ring.",
+      "html": "<a class=\"ds-plate-primary\" href=\"#\"><span class=\"ds-lamp\" aria-hidden=\"true\"></span>Call Haris</a>",
+      "css": ".ds-plate-primary { display: inline-flex; align-items: center; gap: 0.65rem; padding: 1rem 1.5rem; border-radius: var(--radius-plate, 3px); background: var(--amber, #E8A33D); border: 1px solid var(--amber, #E8A33D); color: var(--ink-on-flap, #1A1712); font-family: var(--font-mono, Menlo, monospace); font-size: 0.76rem; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; text-decoration: none; transition: transform var(--dur-tick, 140ms) var(--ease-flap, cubic-bezier(.2,.7,.3,1)), filter var(--dur-tick, 140ms) ease; } .ds-plate-primary .ds-lamp { width: 0.55em; height: 0.55em; border-radius: 50%; border: 1px solid currentColor; } .ds-plate-primary:hover { transform: translateY(-2px); filter: brightness(1.06); } .ds-plate-primary:focus-visible { outline: 2px solid #E8A33D; outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Ghost Plate",
+      "kind": "button",
+      "refersTo": "plate-secondary",
+      "description": "Secondary action: hairline-bordered ticket plate whose lamp ignites amber on hover.",
+      "html": "<a class=\"ds-plate-ghost\" href=\"#\">GitHub</a>",
+      "css": ".ds-plate-ghost { display: inline-flex; align-items: center; gap: 0.65rem; padding: 1rem 1.5rem; border-radius: var(--radius-plate, 3px); background: transparent; border: 1px solid rgba(237,230,214,.30); color: var(--ink-bright, #EDE6D6); font-family: var(--font-mono, Menlo, monospace); font-size: 0.76rem; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; transition: transform var(--dur-tick, 140ms) var(--ease-flap, cubic-bezier(.2,.7,.3,1)), border-color var(--dur-tick, 140ms) ease; } .ds-plate-ghost::before { content: ''; width: 0.55em; height: 0.55em; border-radius: 50%; border: 1px solid currentColor; transition: background var(--dur-tick, 140ms) ease, border-color var(--dur-tick, 140ms) ease; } .ds-plate-ghost:hover { transform: translateY(-2px); border-color: var(--amber, #E8A33D); } .ds-plate-ghost:hover::before { background: var(--amber, #E8A33D); border-color: var(--amber, #E8A33D); } .ds-plate-ghost:focus-visible { outline: 2px solid #E8A33D; outline-offset: 2px; border-radius: 2px; }"
+    },
+    {
+      "name": "Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Hairline-outlined mono metadata chip for disciplines and tech stacks.",
+      "html": "<span class=\"ds-tag\">cloud security</span>",
+      "css": ".ds-tag { display: inline-block; padding: 0.45rem 0.8rem; border: 1px solid rgba(237,230,214,.30); border-radius: var(--radius-flap, 2px); font-family: var(--font-mono, Menlo, monospace); font-size: 0.66rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-muted, #A29A8C); }"
+    },
+    {
+      "name": "Status Badge Done",
+      "kind": "chip",
+      "refersTo": "badge-done",
+      "description": "Completed-state timetable badge: outlined pill with slit-tone dot.",
+      "html": "<span class=\"ds-badge-done\">Complete</span>",
+      "css": ".ds-badge-done { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.32rem 0.65rem; border: 1px solid rgba(237,230,214,.30); border-radius: var(--radius-flap, 2px); font-family: var(--font-mono, Menlo, monospace); font-size: 0.66rem; letter-spacing: 0.10em; text-transform: uppercase; color: var(--ink-bright, #EDE6D6); } .ds-badge-done::before { content: ''; width: 0.5em; height: 0.5em; border-radius: 50%; background: var(--flap-slit, #B8AE9A); }"
+    },
+    {
+      "name": "Status Badge WIP",
+      "kind": "chip",
+      "refersTo": "badge-wip",
+      "description": "Active-state badge: solid Solari amber pill with ink dot.",
+      "html": "<span class=\"ds-badge-wip\">In Progress</span>",
+      "css": ".ds-badge-wip { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.32rem 0.65rem; border-radius: var(--radius-flap, 2px); background: var(--amber, #E8A33D); color: var(--ink-on-flap, #1A1712); font-family: var(--font-mono, Menlo, monospace); font-size: 0.66rem; font-weight: 600; letter-spacing: 0.10em; text-transform: uppercase; } .ds-badge-wip::before { content: ''; width: 0.5em; height: 0.5em; border-radius: 50%; background: var(--ink-on-flap, #1A1712); }"
+    },
+    {
+      "name": "Status Strip",
+      "kind": "custom",
+      "refersTo": "status-strip",
+      "description": "Amber board announcement strip with pulsing lamp.",
+      "html": "<p class=\"ds-status-strip\"><span class=\"ds-lamp-dot\" aria-hidden=\"true\"></span><span>Now Boarding &mdash; Selected Works</span></p>",
+      "css": ".ds-status-strip { display: inline-flex; align-items: center; gap: 0.7rem; margin: 0; background: var(--amber, #E8A33D); color: var(--ink-on-flap, #1A1712); padding: 0.62rem 1.2rem; border-radius: var(--radius-flap, 2px); font-family: var(--font-mono, Menlo, monospace); font-size: 0.66rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; } .ds-status-strip .ds-lamp-dot { flex: none; width: 0.55em; height: 0.55em; border-radius: 50%; background: currentColor; animation: ds-lamp-pulse 2.6s ease-in-out infinite; } @keyframes ds-lamp-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } } @media (prefers-reduced-motion: reduce) { .ds-status-strip .ds-lamp-dot { animation-duration: 0.01ms; animation-iteration-count: 1; } }"
+    },
+    {
+      "name": "Station Nav Link",
+      "kind": "nav",
+      "refersTo": null,
+      "description": "Header wayfinding chip: bordered mono caps link that brightens on hover.",
+      "html": "<nav><a class=\"ds-nav-link\" href=\"#\">Exhibits</a></nav>",
+      "css": ".ds-nav-link { display: inline-block; padding: 0.5rem 0.85rem; border: 1px solid rgba(237,230,214,.14); border-radius: var(--radius-flap, 2px); font-family: var(--font-mono, Menlo, monospace); font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-muted, #A29A8C); text-decoration: none; transition: color var(--dur-tick, 140ms) ease, border-color var(--dur-tick, 140ms) ease; } .ds-nav-link:hover { color: var(--ink-bright, #EDE6D6); border-color: rgba(237,230,214,.45); } .ds-nav-link:focus-visible { outline: 2px solid #E8A33D; outline-offset: 2px; border-radius: 2px; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Split-Flap Departures",
+    "overview": "The site is a living Solari-style departure board. Every work is a scheduled train, every chapter an announcement, every piece of chrome is drawn from board hardware: flaps, slits, plates, lamps. Content sits inside a matte warm-black housing like machinery behind glass; ivory flap cells are the only place type is set dark-on-light, and they appear exactly where the board announces. The page refuses the card-grid portfolio: works are departure rows that pull down into trays, the stack diagram is a route line with stations, the archive is a timetable, contact is a row of ticket plates. Motion is the board's native mechanics, nothing more: letters resolve letter-by-letter when a row arrives, lamps pulse, trays pull down. Every hidden-until-arrival state is gated behind html.js so a no-JS visit sees the complete, static board.",
+    "keyCharacteristics": [
+      "Matte warm-black housing; depth by tonal layering, never drop shadows",
+      "One accent (Solari amber #E8A33D) owns headers, status, focus, selection, and the single primary action",
+      "Ivory flap cells with a visible horizontal slit line are the signature module",
+      "All metadata/chrome text is uppercase Martian Mono with wide tracking",
+      "Radius vocabulary is exactly two values: 2px (flaps) and 3px (plates)",
+      "Hairlines separate everything; there are no cards in grids",
+      "Native cursor always; custom cursor prohibited"
+    ],
+    "rules": [
+      { "name": "The Solari Amber Rule", "body": "Amber owns headers, status, and the one primary action - nothing else. If a second amber element competes with the primary plate on one screen, one of them is wrong.", "section": "colors" },
+      { "name": "The Red Reserve Rule", "body": "Signal red appears only when something is genuinely wrong or urgent. It has zero call sites today; shipping it on routine chrome breaks the reserve.", "section": "colors" },
+      { "name": "The Ink Naming Rule", "body": "Token convention is binding: --ink-* names are text COLORS, --text-* names are font SIZES ONLY. Never cross them.", "section": "colors" },
+      { "name": "The Three-Layer Binding Rule", "body": "Every glyph belongs to exactly one layer - Anton announces, Archivo explains, Martian Mono records. No fourth face, no layer blending.", "section": "typography" },
+      { "name": "The Mono Chrome Rule", "body": "Anything that is not a heading or reading copy is uppercase Martian Mono with wide tracking. If you're writing chrome text in sentence case, it's off-system.", "section": "typography" },
+      { "name": "The Inset-Only Depth Rule", "body": "Shadows may only be inset, and only to model flap curvature. External drop shadows do not exist in this world.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do gate every hidden-until-arrival state behind html.js - the static page must be complete without JavaScript.",
+      "Do reuse the lamp-dot language for any new status (filled amber = active, pulsing = live, hollow = pending) before inventing new furniture.",
+      "Do keep new panels honest: hairline border, 3px radius, panel background, slit bar if it's a \"desk\" surface.",
+      "Do set all chrome text in uppercase Martian Mono with 0.10-0.22em tracking.",
+      "Do stack tables on mobile via td::before { content: attr(data-label) } instead of horizontal scroll.",
+      "Do test any new idea against the PRODUCT.md slop test: \"Could this appear on 500 other AI-generated portfolios?\" If yes, redraw it as board hardware."
+    ],
+    "donts": [
+      "Don't add a second accent or spend amber twice in one viewport; if red leaves its reserve, it needs an actual alarm.",
+      "Don't introduce external drop shadows, gradients, glow, glassmorphism, or radii beyond the 2px/3px vocabulary.",
+      "Don't implement a custom cursor - the native cursor is mandated and untouched in base.css.",
+      "Don't animate anything that doesn't announce arrival, status, or wayfinding; no scroll-jacking, no parallax.",
+      "Don't present placeholder specs/metrics as fact - trays carry their \"Illustrative specification\" disclaimers.",
+      "Don't grow the font cast beyond the Anton/Archivo/Martian Mono binding."
+    ]
+  }
+}

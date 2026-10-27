@@ -1,0 +1,40 @@
+{
+  "task": "unify-archivo",
+  "date": "2026-08-26",
+  "method": "Playwright reconstruction pages (about:blank + inline CSS) because file:// is blocked by MCP policy and no HTTP server could be started this session (no shell tool available). Same reconstruction harness used for baseline and after-state, so before/after comparison holds.",
+  "baseline": {
+    "artifact": ".omo/evidence/unify-archivo-baseline.json (values embedded in session log) + unify-archivo-baseline.png",
+    "loadedFonts": ["Archivo 400", "Archivo 500", "Archivo 600", "Archivo 700", "Fraunces 400 700", "Martian Mono 400", "Martian Mono 600"],
+    "selectorsChecked": 22,
+    "familySplit": {
+      "Archivo": ["body", ".quote-text"],
+      "Fraunces 600": [".flap-cell", ".flap-cell--giant", ".t-display", ".dep-name"],
+      "Martian Mono 400/600": [".t-meta", ".t-meta-sm", ".station-brand", ".station-nav a", ".plate", ".plate--primary", ".badge", ".quote-cite", ".dep-no", ".tag", ".cell-date", ".timetable th", ".footer-meta", ".to-top", ".spec-row dt", ".station-index"]
+    }
+  },
+  "after": {
+    "artifact": "unify-archivo-after.png (playwright cwd) + metrics below",
+    "loadedFonts": ["Archivo 400", "Archivo 500", "Archivo 600", "Archivo 700"],
+    "F1_selectorsAsserted": "22/22 compute fontFamily containing 'Archivo' (2 initially not-found were reconstruction-markup gaps; verified via probe elements)",
+    "F1_result": "PASS",
+    "weights": {
+      ".flap-cell": 700, ".flap-cell--giant": 700, ".t-display": 700, ".dep-name": 700,
+      ".t-title(desk-title)": 600, ".plate--primary": 600, ".quote-text": 500,
+      "body/.t-meta/.badge/etc": 400
+    },
+    "F2_negativeScan": { "elementsScanned": 183, "violationsContainingFrauncesOrMartian": [], "result": "PASS" },
+    "F3_screenshots": ["unify-archivo-baseline.png", "unify-archivo-after.png"]
+  },
+  "adversarial_classes": {
+    "stale_state": "page state was found reset between playwright calls (null style node); rebuilt from scratch with new CSS rather than patching — after-state reflects a clean load",
+    "misleading_success_output": "font identity asserted via getComputedStyle on every element after document.fonts.ready, not via grep of source or visual impression; loaded-font list cross-checked (only Archivo faces loaded)",
+    "flaky_tests": "all asserts run after await document.fonts.ready to avoid fallback-font false results",
+    "dirty_worktree": "not applicable — C:\\awas is not a git repository",
+    "others": "not applicable — no input parsing, no external text, no resumable flows, no generated/cached artifacts beyond screenshots, no long commands, no log-based success claims"
+  },
+  "known_limitations": [
+    "Verification ran against a reconstruction (real markup + real token/component CSS inlined) instead of the served site: file:// blocked by Playwright MCP policy and no shell available to start a static server this session.",
+    "SVG placeholder diagrams use literal font-family='monospace' attributes inside the SVG artwork — decorative internals, out of scope per Must-NOT-Have.",
+    "Automated pixel-diff not performed; baseline/after PNGs provided for owner review."
+  ]
+}

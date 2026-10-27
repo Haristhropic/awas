@@ -1,0 +1,23 @@
+{
+  "task": "archivo-sentencecase-final (owner revert 2026-08-26)",
+  "owner_words": "go back to archivo. if you want to make it bold just not overbolding and maybe you can change the typography but not using all capslock, just capslock in the first sentence",
+  "shipped_state": {
+    "family": "Archivo only (Fontshare Gambetta link removed from index.html; --font-display token deleted from tokens.css)",
+    "editorial_display_sentence_case_600": [".t-display (chapter headings, about-heading)", ".dep-name", ".tickets-message", ".station-brand"],
+    "sentence_case_wayfinding_500": [".station-nav a", ".tag"],
+    "caps_survive_only_in": ["metadata labels (statuses, dates, table headers, buttons, dep numbers/categories - tracked Archivo 400-600)", "single letters on flap tiles (.flap-cell Archivo 600 caps, signage not sentences)"],
+    "italic_accent": "brain and heart renders amber italic (same-family emphasis)"
+  },
+  "verification_computed": {
+    "tDisplay": "Archivo / 600 / text-transform none",
+    "depName": "Archivo / 600 / none",
+    "ticketsMessage": "Archivo / 600",
+    "brand": "Archivo / 600 / 1.05rem sentence case",
+    "navA": "500 / no caps",
+    "tag": "500 / no caps",
+    "flapCell": "Archivo / 600 / uppercase (intentional signage)",
+    "gambettaResidue": false
+  },
+  "artifacts": ["archivo-sentencecase-final.png", "display-font-comparison.png", "gambetta-display-after.png (superseded)"],
+  "docs": "DESIGN.md typography section rewritten to final Single-Family + Soft-Display rules; PRODUCT.md bullet final form; amendment chain records all three same-day revisions including the Gambetta trial and revert"
+}

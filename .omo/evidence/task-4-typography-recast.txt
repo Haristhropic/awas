@@ -1,0 +1,3 @@
+TOTAL Anton references: 3
+Fraunces mentions in DESIGN.md: 12
+Remaining Anton mentions (provenance only): 2

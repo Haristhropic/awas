@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "active_work_id": "unify-archivo",
+  "works": {
+    "unify-archivo": {
+      "work_id": "unify-archivo",
+      "active_plan": ".omo/plans/unify-archivo.md",
+      "plan_name": "unify-archivo",
+      "session_ids": ["codex:opencode-main-unify-archivo"],
+      "status": "completed",
+      "worktree_path": null
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "flapGiant": { "fontFamily": "Fraunces", "fontWeight": "600", "textTransform": "uppercase" },
+  "tDisplay": { "fontFamily": "Fraunces", "fontWeight": "600", "fontSizePx": 44.82, "lineHeightPx": 48.41, "ratio": 1.08 },
+  "depName": { "fontFamily": "Fraunces", "fontWeight": "600", "lineHeightRatio": 1.12 },
+  "quoteText": { "fontFamily": "Archivo", "fontWeight": "500", "lineHeightRatio": 1.55, "invariant": true },
+  "body": "Archivo",
+  "consoleErrors": ["favicon.ico 404 — local-server artifact, no favicon shipped by design"],
+  "reducedMotion": { "arrivedInstant": true, "heroElementsOpacityAfterDelayWindow": "1/1/1" }
+}

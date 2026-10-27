@@ -1,0 +1,31 @@
+{
+  "task": "gambetta-display-register (owner /impeccable 2026-08-26)",
+  "complaint": "caps-lock section headings too bold/sharp/corporate/average; wants chic, niche, aesthetic, unique",
+  "process": "5-direction live comparison sheet rendered with real heading strings (display-font-comparison.png); owner picked Gambetta",
+  "changes": {
+    "index.html": "Fontshare link f[]=gambetta@400,401,500,501 added; comments updated (line 12 + contract line 28)",
+    "tokens.css": "--font-display: 'Gambetta' restored alongside --font-family (Archivo)",
+    "typography.css": ".t-display -> Gambetta 500, sentence case (text-transform removed), lh 1.15, ls normal; em -> true italic amber",
+    "components.css": ".dep-name -> Gambetta 500 sentence case; .tickets-message -> Gambetta 500 (contact display line)",
+    "DESIGN.md": "frontmatter display-family + display entry; Typography section rewritten (Two-Register Binding / Soft-Display rules, hierarchy split: flap hardware vs editorial display); departure-row prose; Don't line; amendment appended",
+    "PRODUCT.md": "Brand Commitments bullet -> two-register binding"
+  },
+  "verification": {
+    "computed": {
+      "tDisplay": "Gambetta / 500 / text-transform none",
+      "emAccent": "italic",
+      "depName": "Gambetta / 500 / none",
+      "ticketsMessage": "Gambetta",
+      "flapCellHardwareUnchanged": "Archivo / 700 / uppercase"
+    },
+    "loadedFaces": ["Gambetta normal 500", "Gambetta italic 500", "Archivo normal 600", "Archivo normal 700"],
+    "result": "PASS",
+    "artifacts": ["display-font-comparison.png", "gambetta-display-after.png"]
+  },
+  "italic_descender_check": "'brain and heart' contains no descender glyphs (y/g/j/p/q); lh 1.15 > 1.1 minimum - no clipping risk",
+  "adversarial_classes": {
+    "misleading_success_output": "font identity asserted via getComputedStyle + loaded-fonts list after fonts.ready, not via source grep or visual impression alone",
+    "stale_state": "fresh page rebuild for verification (earlier session showed playwright state resets between calls)"
+  },
+  "scope_note": "flap-tile board lettering intentionally kept Archivo 700 uppercase - it is board hardware (the Solari metaphor), not editorial type; owner complaint listed only the four section headings and dep-names/tickets-message were included because they share the display register"
+}

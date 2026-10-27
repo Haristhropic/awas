@@ -1,0 +1,126 @@
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+.site {
+  min-height: 100dvh;
+  background: var(--bg);
+}
+
+/* Header overlays first screen */
+.site-header {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--margin);
+  font-size: var(--step-small);
+  color: var(--muted);
+}
+.site-header .wordmark { color: var(--ink); font-weight: 600; }
+.site-header nav { display: flex; gap: clamp(1rem, 2vw, 2rem); }
+.site-header nav a:hover { color: var(--ink); }
+@media (max-width: 640px) {
+  .site-header nav a:not(.wordmark) { display: none; } /* collapse to one word */
+  .site-header nav a.contact-link { display: inline; }
+}
+
+.section {
+  padding-block: var(--gap-section);
+  padding-inline: var(--margin);
+  max-width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+/* columns helper */
+.cols {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 var(--margin);
+}
+@media (max-width: 900px) {
+  .cols { grid-template-columns: 1fr; gap: var(--margin); }
+}
+
+main > section + section { border-top: 0; }
+
+/* full-bleed panels */
+.panel {
+  min-height: 60svh;
+  position: relative;
+  display: grid;
+  place-items: center;
+  align-content: start;
+  overflow: hidden;
+  isolation: isolate;
+}
+.panel img, .panel video { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1; filter: grayscale(1); }
+.panel .verb {
+  font-size: clamp(5rem, 17vw, 18.75rem);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 150;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  color: #ffffff;
+  position: static;
+  transform: none;
+  mix-blend-mode: normal;
+  align-self: start;
+  margin-top: var(--margin);
+  text-align: center;
+  width: 100%;
+  /* text legibility relies on scrim behind the sentence */
+  z-index: 2;
+}
+.panel .panel-sentence {
+  position: absolute;
+  left: var(--margin);
+  bottom: var(--margin);
+  max-width: 42ch;
+  font-size: var(--step-body);
+  color: #ffffff;
+  line-height: 1.4;
+  background: linear-gradient(to top, rgba(0,0,0,0.45), transparent 70%); /* taste-skill-ignore */
+  padding: 1.5rem 1rem 0.5rem 0;
+}
+@media (max-width: 640px) {
+  .panel .verb { font-size: 24vw; }
+  .panel .panel-sentence { font-size: var(--step-small); width: 100%; padding-inline: 0; }
+}
+
+/* inverse contact */
+.inverse {
+  background: var(--ink);
+  color: var(--bg);
+  min-height: auto;
+  position: relative;
+  padding: var(--gap-section) var(--margin);
+}
+.inverse a { color: var(--bg); }
+.inverse .email {
+  font-size: clamp(2.5rem, 7.5vw, 8rem);
+  font-weight: 400;
+  font-variation-settings: 'wdth' 150;
+  letter-spacing: -0.04em;
+  line-height: 0.95;
+  word-break: break-word;
+  position: relative;
+  z-index: 1;
+}
+.inverse .contact-top-sentence { position: relative; z-index: 1; }
+.inverse > div { position: relative; z-index: 1; }
+.inverse .email:hover { color: var(--accent); }
+
+@media (max-width: 640px) {
+  .inverse .email { font-size: 7.5vw; }
+  .br-mobile { display: inline; }
+}
+.br-mobile { display: none; }
+
+/* media query helper for tables */
+@media (max-width: 640px) {
+  .row-3 { flex-direction: column; }
+}

@@ -1,0 +1,146 @@
+{
+  "title": "Choose the visual world",
+  "question": "Seven worlds for The Living Atelier's redesign. Lock one, adopt a demoted challenger, take the standard, or steer a fresh hand.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The Rack Elevation",
+      "kicker": "THE ROLL",
+      "lineage": "datacenter rack elevations & asset culture",
+      "thesis": "Infrastructure presented as it actually ships: racked, labeled, live.",
+      "palette": ["#17191E", "#9BA3AE", "#EDEAE2", "#FFB000", "#3FBF7F"],
+      "materials": ["powder-coated steel", "silkscreen labels", "asset tags & barcodes", "cable-dress color codes"],
+      "viewport": "A full-height front elevation: Haris nameplate as the top unit, chapters racked below, status LEDs running.",
+      "risk": "Cold and impersonal if the labeling isn't editorially rigorous; theme-park techy if it is decorative instead of true.",
+      "case": "Assigned by the roll. Engineers read rack elevations natively; credibility comes free, warmth must be earned by typography.",
+      "raised": [
+        { "from": "step-row", "raise": "One unbroken functional spine: a live status-bus strip runs the whole page, state written into it as you move." },
+        { "from": "nightboard", "raise": "Total text-chrome discipline: every element drawn from one stencil-label grammar; new content announces itself as a system message." },
+        { "from": "gravity-garden", "raise": "One governing force: scroll drives a single coherent power/data flow through the elevation." },
+        { "from": "window-boxes", "raise": "Packaged-object model: each project is a sealed unit whose face pulls out on rails to the full case study." },
+        { "from": "stage-page", "raise": "Theatrical type contrast: RU numerals enormous against silkscreen-small labels; scale carries emotion, not ornament." }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 14,
+        "regions": [
+          { "label": "RU index rail", "x": 0, "y": 0, "w": 2, "h": 14 },
+          { "label": "nameplate unit", "x": 2, "y": 0, "w": 10, "h": 2, "accent": true },
+          { "label": "artifact units", "x": 2, "y": 2, "w": 10, "h": 7 },
+          { "label": "status bus", "x": 2, "y": 9, "w": 10, "h": 1, "accent": true },
+          { "label": "pull-out tray", "x": 2, "y": 10, "w": 10, "h": 4 }
+        ]
+      }
+    },
+    {
+      "id": "model-pick",
+      "label": "Split-Flap Departures",
+      "kicker": "IMPECCABLE'S PICK",
+      "lineage": "Solari airport departure boards",
+      "thesis": "Every work a scheduled departure on a board that flips as you arrive.",
+      "palette": ["#14181A", "#EFE9D8", "#D9A441", "#4A5866"],
+      "materials": ["split-flap modules", "mechanical tick", "backlit cells"],
+      "viewport": "A giant board caught mid-flip spelling HARIS / CLOUD ENGINEER; works listed as departures with gates and statuses.",
+      "risk": "Also where most engineer portfolios would love to land; flap mechanics can outrun the content they announce.",
+      "case": "My top-ranked candidate before the roll: strongest kinetic memory, native systems metaphor.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 12,
+        "regions": [
+          { "label": "board header", "x": 0, "y": 0, "w": 12, "h": 2, "accent": true },
+          { "label": "destination row", "x": 0, "y": 2, "w": 12, "h": 2 },
+          { "label": "departure list", "x": 0, "y": 4, "w": 12, "h": 6 },
+          { "label": "clock / status", "x": 0, "y": 10, "w": 12, "h": 2 }
+        ]
+      }
+    },
+    {
+      "id": "challenger-azulejo",
+      "label": "Azulejo Station Hall",
+      "lineage": "Portuguese tin-glazed tile halls",
+      "thesis": "Infra narratives painted cobalt across a strict tile grid; blank tiles hold places for real work.",
+      "palette": ["#1F4788", "#F4F1E8", "#C9C6BD", "#D9A62E"],
+      "materials": ["tin-glazed tile", "brushed line work", "scrolled border frames"],
+      "viewport": "Panels cross whole-tile seams; the active scene deepens in cobalt while neighbors fade toward glaze white.",
+      "risk": "Reads heritage-decorative unless the grid discipline is absolute.",
+      "case": "Engineering-as-art is literally its thesis; blank tiles make placeholder honesty beautiful. Loses narrowly on audience nativeness.",
+      "hero": "https://impeccable.style/worlds/cards/architecture-places-azulejo-station-hall-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/architecture-places-azulejo-station-hall.webp",
+      "verdict": "competitive"
+    },
+    {
+      "id": "challenger-massin",
+      "label": "Massin Stage Page",
+      "lineage": "Massin's typographic play editions",
+      "thesis": "System components speak as staged voices; size is volume, collision is argument.",
+      "palette": ["#141414", "#FAF7F0", "#C33B2A", "#6B675F"],
+      "materials": ["high-contrast ink", "stamp portraits", "variable font axes"],
+      "viewport": "An uptime incident typeset as theater across the spread; captions stay calm at the margins.",
+      "risk": "Designer-flavored more than engineer-native; drifts from infrastructure truth.",
+      "case": "Proves craft-itself supremely; recruiters identify less readily than engineers do.",
+      "hero": "https://impeccable.style/worlds/cards/massin-stage-page-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/massin-stage-page.webp",
+      "verdict": "competitive"
+    },
+    {
+      "id": "challenger-steprow",
+      "label": "Step-Sequencer Row",
+      "lineage": "early-80s rhythm machines",
+      "thesis": "The portfolio as sixteen candy steps under a running chase light.",
+      "palette": ["#23252A", "#E04A3A", "#EE7F2D", "#EFB93C", "#F2EFE6"],
+      "materials": ["molded keys", "LEDs", "silkscreen caps"],
+      "viewport": "One unbroken step row as the page spine; tempo readout above.",
+      "risk": "Says music tool, not infrastructure; the metaphor strains by chapter two.",
+      "kept": "The single functional spine you write state into.",
+      "verdict": "declined"
+    },
+    {
+      "id": "challenger-bbs",
+      "label": "ANSI BBS Nightboard",
+      "lineage": "dial-up bulletin boards",
+      "thesis": "Haris's board at 2 a.m.: block-glyph chrome, numbered exits, scarce presence.",
+      "palette": ["#0A0C0E", "#4FD8D8", "#E05AC0", "#EDEDED"],
+      "materials": ["CP437 glyphs", "box-drawing rules", "phosphor glow"],
+      "viewport": "Title art pours in line by line over an 80-by-25 cell grid.",
+      "risk": "It is the excluded terminal-gimmick rut, wearing nostalgia; near-black-plus-glow is an AI calibration cluster.",
+      "kept": "Total text-chrome discipline; events announced as system messages.",
+      "verdict": "declined"
+    },
+    {
+      "id": "challenger-gravity",
+      "label": "Gravity Rain Garden",
+      "lineage": "surreal physics picture books",
+      "thesis": "Clouds color-coded by law; rain falls differently around each system.",
+      "palette": ["#4A5648", "#6FA8DC", "#C25B4E", "#D8D8D4"],
+      "materials": ["vector fields", "watercolor washes"],
+      "viewport": "Four rains falling in different directions around planted artifacts.",
+      "risk": "Pure cleverness; says nothing true about cloud engineering.",
+      "kept": "One governing force animating everything consistently.",
+      "verdict": "declined"
+    },
+    {
+      "id": "challenger-toyshelf",
+      "label": "Window-Box Aisle",
+      "lineage": "toy-shop shelf dioramas",
+      "thesis": "Each project a lidded box; light through cellophane windows.",
+      "palette": ["#F1E7CE", "#7BA05B", "#B34659", "#86AED0"],
+      "materials": ["die-cut board", "cellophane", "hand lettering"],
+      "viewport": "Shelf rows of boxed sets, one end-cap hero lit.",
+      "risk": "Tonally wrong for a cloud engineer; regresses into the cream-ground AI cluster.",
+      "kept": "The packaged-object model: sealed face opens to the full story.",
+      "verdict": "declined"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "buildPath": { "value": "code", "toggle": false },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "What this category ships, executed impeccably.",
+    "palette": ["#FFFFFF", "#111827", "#2563EB"],
+    "materials": ["clean grid", "product photography"],
+    "viewport": "The arrangement a visitor expects, at full craft.",
+    "risk": "Indistinguishable from the competition by design."
+  },
+  "steer": true
+}

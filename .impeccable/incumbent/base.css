@@ -1,0 +1,81 @@
+/* ==========================================================================
+   THE LIVING ATELIER — BASE & RESET
+   Native cursor, clean modern CSS reset, no AI-slop
+   ========================================================================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  background-color: var(--color-canvas);
+  color: var(--color-ink-primary);
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  font-family: var(--font-ui);
+  line-height: 1.6;
+  background-color: var(--color-canvas);
+  color: var(--color-ink-primary);
+  overflow-x: hidden;
+  /* Native cursor explicitly required by PRD & AGENTS.md */
+  cursor: auto;
+}
+
+/* --- SELECTION COLORS --- */
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-canvas-white);
+}
+
+/* --- IMAGE & MEDIA DEFAULTS --- */
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* --- LINK & BUTTON DEFAULTS --- */
+a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--dur-fast) var(--ease-editorial),
+              border-color var(--dur-fast) var(--ease-editorial),
+              opacity var(--dur-fast) var(--ease-editorial);
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* --- ACCESSIBILITY FOCUS RING --- */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
+
+/* --- REDUCED MOTION --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

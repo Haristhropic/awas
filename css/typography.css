@@ -1,0 +1,63 @@
+/* ==========================================================================
+   TYPOGRAPHY — TikTok Sans only
+   ========================================================================== */
+.t-monument {
+  font-family: var(--font);
+  font-size: var(--step-monument);
+  font-weight: 800;
+  font-variation-settings: 'wdth' 150;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+  text-transform: uppercase;
+  font-optical-sizing: auto;
+}
+.t-head {
+  font-family: var(--font);
+  font-size: var(--step-head);
+  font-weight: 700;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.t-lead {
+  font-family: var(--font);
+  font-size: var(--step-lead);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.t-body {
+  font-family: var(--font);
+  font-size: var(--step-body);
+  font-weight: 400;
+  line-height: 1.45;
+}
+.t-small {
+  font-family: var(--font);
+  font-size: var(--step-small);
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+h1, h2, h3 { font: inherit; color: var(--ink); }
+a { text-decoration: none; }
+
+.hero-name {
+  display: inline-flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  gap: 0;
+  white-space: nowrap;
+}
+.hero-name img.frame {
+  width: 0.95em;
+  height: 0.95em;
+  margin-inline: 0.02em;
+  object-fit: cover;
+  align-self: center;
+  border: 0;
+  border-radius: 0;
+}
+@media (max-width: 640px) {
+  .hero-name { flex-wrap: wrap; justify-content: center; }
+  .hero-name img.frame { width: 100%; height: auto; aspect-ratio: 3 / 2; margin-block: 0.5rem; }
+}

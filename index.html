@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Living Atelier - Haris (Cloud Engineer)</title>
+  <meta name="description" content="Personal digital space for Haris, Cloud Engineer. Infrastructure, Linux, cloud security, built with brain and heart.">
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:wdth,wght@75..150,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site">
+    <!-- HERO -->
+    <section id="arrival" class="hero" aria-label="Arrival">
+      <header class="site-header">
+        <a class="wordmark" href="#arrival">The Living Atelier</a>
+        <nav aria-label="Main navigation">
+          <a href="#work">Work</a>
+          <a href="#system">System</a>
+          <a href="#archive">Archive</a>
+          <a class="contact-link" href="#contact">Contact</a>
+        </nav>
+      </header>
+      <div class="hero-grid">
+        <div class="hero-name-wrap">
+          <h1 class="hero-name t-monument shutter" aria-label="Haris">
+            <span>H</span>
+            <img class="frame" src="https://picsum.photos/id/942/400/400?grayscale" alt="A concrete building corner against the sky, used as a glyph" width="400" height="400" loading="eager">
+            <span>RIS</span>
+          </h1>
+        </div>
+        <div class="hero-foot">
+          <p class="support">Haris. Cloud Engineer. Infrastructure, Linux, cloud security.</p>
+          <a class="btn" href="mailto:hrisscloud@gmail.com">Email Haris</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container" id="main-content">
+      <!-- INTRO -->
+      <section id="personal-space" class="section intro" aria-labelledby="intro-heading" style="padding-top: 2rem; background-color: #e1dad7;">
+        <h2 class="sr-only" id="intro-heading">Personal space</h2>
+        <p class="statement" data-arrive>I build the parts of systems that stay quiet when everything moves. Traffic, cache, storage, small rules inside servers.</p>
+        <img class="photo" src="https://picsum.photos/id/1081/600/600?grayscale" alt="Stepped building corner" width="600" height="600" loading="lazy">
+        <p class="note" data-arrive>Sample note: four artifacts are sketches. Images are atmosphere, not my own. Real case studies arrive later.</p>
+      </section>
+
+      <!-- WORK -->
+      <section id="work" class="section work" aria-labelledby="work-heading">
+        <h2 class="work-heading" id="work-heading">Work</h2>
+        <div class="work-list">
+          <div class="work-block wb-left" data-arrive>
+            <img class="work-img" src="https://picsum.photos/id/500/1200/800?grayscale" alt="Glass skyscraper tapering into clouds" width="1200" height="800" loading="lazy">
+            <p class="work-name">Load Balancer</p>
+            <p class="work-desc">High-resilience reverse proxy and traffic distribution layer.</p>
+          </div>
+          <div class="work-block wb-right" data-arrive>
+            <img class="work-img" src="https://picsum.photos/id/508/800/1000?grayscale" alt="Vaulted interior columns" width="800" height="1000" loading="lazy">
+            <p class="work-name">Redis Infrastructure</p>
+            <p class="work-desc">Clustered caching topology for microsecond retrieval.</p>
+          </div>
+          <div class="work-block wb-wide" data-arrive>
+            <img class="work-img" src="https://picsum.photos/id/693/1600/900?grayscale" alt="Red suspension bridge tower in fog" width="1600" height="900" loading="lazy">
+            <p class="work-name">Containerized Application</p>
+            <p class="work-desc">Multi-service deployment scaffold with isolated networking.</p>
+          </div>
+          <div class="work-block wb-left" data-arrive>
+            <img class="work-img" src="https://picsum.photos/id/618/1200/800?grayscale" alt="Curving glass and steel lattice roof" width="1200" height="800" loading="lazy">
+            <p class="work-name">Uptime Monitoring</p>
+            <p class="work-desc">Distributed heartbeat verification and alerting.</p>
+          </div>
+          <p class="work-remark" data-arrive>Four sketches. None of them is finished. That is the point of a space still being built.</p>
+        </div>
+      </section>
+
+      <!-- SYSTEM -->
+      <section id="system" aria-labelledby="system-heading">
+        <h2 class="sr-only" id="system-heading">System</h2>
+        <div class="panel" loading="lazy">
+          <img src="https://picsum.photos/id/942/1920/1080?grayscale" alt="Concrete angular building against sky" width="1920" height="1080" loading="lazy">
+          <p class="verb">Route</p>
+          <p class="panel-sentence">Ingress controller checks the request at the boundary.</p>
+        </div>
+        <div class="panel">
+          <img src="https://picsum.photos/id/500/1920/1080?grayscale" alt="Glass skyscraper tapering into clouds" width="1920" height="1080" loading="lazy">
+          <p class="verb">Isolate</p>
+          <p class="panel-sentence">Runtime environment keeps the process in its own sandbox.</p>
+        </div>
+        <div class="panel">
+          <img src="https://picsum.photos/id/618/1920/1080?grayscale" alt="Curving glass and steel lattice roof" width="1920" height="1080" loading="lazy">
+          <p class="verb">Cache</p>
+          <p class="panel-sentence">Caching layer answers before storage is touched.</p>
+        </div>
+        <div class="panel">
+          <img src="https://picsum.photos/id/1081/1920/1080?grayscale" alt="Stepped building corner" width="1920" height="1080" loading="lazy">
+          <p class="verb">Store</p>
+          <p class="panel-sentence">Persistent storage writes what must survive.</p>
+        </div>
+        <div class="section" data-arrive style="max-width: 1240px; margin-inline: auto;">
+          <p class="t-lead">Test a request.</p>
+          <div style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin-top: 1rem;">
+            <select id="op" aria-label="Operation type" style="min-height:44px; padding:0 1rem; background:var(--surface); border:0; color:var(--ink);">
+              <option value="read">Read</option>
+              <option value="write">Write</option>
+            </select>
+            <button id="run-request" class="btn" type="button">Run</button>
+          </div>
+          <ol id="request-path" aria-live="polite" style="margin-top:1.5rem; font-size: var(--step-body);"></ol>
+        </div>
+      </section>
+
+      <!-- ARCHIVE -->
+      <section id="archive" class="section" aria-labelledby="archive-heading" style="background-color: #e1dad7;">
+        <h2 class="list-head" id="archive-heading"><span class="line1">Engineering archive</span></h2>
+        <p class="list-note">Demo timetable: sample log entries.</p>
+        <div class="archive-table" data-arrive>
+          <div class="archive-row">
+            <span class="kind">Aug 2026</span>
+            <span>Kubernetes Migration</span>
+            <span class="value">Complete</span>
+          </div>
+          <div class="archive-row">
+            <span class="kind">Jul 2026</span>
+            <span>Redis Sentinel Setup</span>
+            <span class="value">In progress</span>
+          </div>
+          <div class="archive-row">
+            <span class="kind">Jun 2026</span>
+            <span>Nginx TLS Hardening</span>
+            <span class="value">Complete</span>
+          </div>
+          <div class="archive-row">
+            <span class="kind">May 2026</span>
+            <span>Prometheus Alerting</span>
+            <span class="value">Complete</span>
+          </div>
+        </div>
+        <img class="list-photo" src="https://picsum.photos/id/887/600/750?grayscale" alt="White apartment block facade" width="600" height="750" loading="lazy" data-arrive>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section about" aria-labelledby="about-heading" style="background-color: #e1dad7;">
+        <h2 class="sr-only" id="about-heading">About</h2>
+        <div class="cols">
+          <div class="about-facts" data-arrive>
+            <div><b>Role</b>Cloud Engineer</div>
+            <div><b>Focus</b>Infrastructure, security, Linux</div>
+            <div><b>Reach</b>hrisscloud@gmail.com</div>
+          </div>
+          <p class="dropcap-para" data-arrive>
+            <img class="drop" src="https://picsum.photos/id/855/400/400?grayscale" alt="Figure walking past a yellow wall" width="400" height="400" loading="lazy">
+            <span class="name">Haris.</span> I build quiet systems that survive bad days. Infrastructure, cloud security, Linux, and careful details. build with brain and heart.
+          </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="inverse" aria-labelledby="contact-heading" style="background-color: #2b2622;">
+        <h2 class="sr-only" id="contact-heading">Contact</h2>
+        <p class="contact-top-sentence" data-arrive>Let's make something worth keeping.</p>
+        <a class="email" data-arrive href="mailto:hrisscloud@gmail.com">hrisscloud@<br class="br-mobile">gmail.com</a>
+        <div style="display:grid; grid-template-columns: 1fr auto; gap: 1rem; margin-top: 3rem; align-items: end;" data-arrive>
+          <div style="font-size: var(--step-small); opacity: 0.75;">
+            <div>Haris</div>
+            <div>Cloud Engineer</div>
+            <div>hrisscloud@gmail.com</div>
+          </div>
+          <div style="font-size: var(--step-small); text-align: right;">
+            <a href="https://github.com/Haristhropic" target="_blank" rel="noopener noreferrer" style="display:block;">GitHub</a>
+            <a href="https://www.linkedin.com/in/rahmad-haris-abdillah-958142384/" target="_blank" rel="noopener noreferrer" style="display:block;">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    <section class="section" aria-label="Film strip" style="padding-block: var(--margin); background-color: #e1dad7;">
+      <video class="video-loop" style="width:100%; aspect-ratio:16/9; object-fit:cover; filter:grayscale(1);" src="https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Ocean_Moon_Glint_and_City_Night_Lights_in_4K.webm/Ocean_Moon_Glint_and_City_Night_Lights_in_4K.webm.480p.vp9.webm" poster="https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Ocean_Moon_Glint_and_City_Night_Lights_in_4K.webm/1280px--Ocean_Moon_Glint_and_City_Night_Lights_in_4K.webm.jpg" muted autoplay loop playsinline loading="lazy"></video>
+      <span class="t-small" style="display:block; margin-top:1rem;">City at night, public domain photograph in motion, used as the page's one moving picture.</span>
+    </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="section" style="padding-block: var(--gap-section); background-color: #e1dad7;">
+      <p class="name-big" data-arrive>Haris</p>
+      <div class="footer">
+        <span>Credits: photography from Unsplash via picsum.photos (attributed in report). Video public domain NASA.</span>
+        <a href="#arrival">Return to top</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
